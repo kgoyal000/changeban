@@ -3,6 +3,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
   <title>Random</title>
+ <script language="JavaScript" src="https://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
   </head>
 <body>
 
@@ -10,7 +11,6 @@
 
   <div>Your Currency is <span id="currency"></span></div>
   
- <script language="JavaScript" src="https://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
 <script>
   alert("You are from "+geoplugin_countryName()+" "+geoplugin_region());
   document.getElementById("currency").innerHTML = geoplugin_currencySymbol()+" "+geoplugin_currencyCode();
